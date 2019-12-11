@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".AddTrackActivity">
+
+    <TextView
+        android:id="@+id/textViewArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextTrackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Track Name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <SeekBar
+        android:id="@+id/seekbarRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:layout_marginTop="20dp"
+        android:padding="20dp">
+    </SeekBar>
+
+    <Button
+        android:id="@+id/buttonAddTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Track"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp">
+    </Button>
+
+    <ListView
+        android:id="@+id/listViewTracks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+    </ListView>
+
+</LinearLayout>

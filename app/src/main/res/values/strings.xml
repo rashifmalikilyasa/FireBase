@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FireBaseMI</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Folk</item>
+        <item>Country</item>
+        <item>Indie</item>
+        <item>Pop</item>
+    </array>
+</resources>
